@@ -5,7 +5,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      -  uses: action/checkout@v4
+      -  uses: actions/checkout@v4
       -  name: single command
          run: sleep 5
 
@@ -14,5 +14,6 @@ jobs:
           echo "hello world"
           echo "hello aadil"
           echo "blabla"
+          cat hello-catty
   
   
